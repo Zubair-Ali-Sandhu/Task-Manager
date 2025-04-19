@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Task card background colors -->
+    <color name="task_card_background">#FFFFFF</color>
+    <color name="task_completed_background">#F5F5F5</color>
+    
+    <!-- Priority colors -->
+    <color name="priority_high">#FF5252</color>
+    <color name="priority_medium">#FFC107</color>
+    <color name="priority_low">#4CAF50</color>
+    
+    <!-- Theme colors - More vibrant -->
+    <color name="primary">#6200EA</color>
+    <color name="primary_dark">#3700B3</color>
+    <color name="primary_variant">#7C4DFF</color>
+    <color name="accent">#FF4081</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_variant">#018786</color>
+    
+    <!-- Background colors -->
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    
+    <!-- Standard colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- New vibrant colors for welcome screen -->
+    <color name="welcome_gradient_start">#6200EA</color>
+    <color name="welcome_gradient_end">#03DAC6</color>
+    <color name="quote_background">#80FFFFFF</color>
+    <color name="developer_info_background">#802196F3</color>
+    <color name="time_background">#80FF4081</color>
+</resources>

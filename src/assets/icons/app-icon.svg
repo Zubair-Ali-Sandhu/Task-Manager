@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B" />
+      <stop offset="50%" stop-color="#E53E3E" />
+      <stop offset="100%" stop-color="#C53030" />
+    </linearGradient>
+    <linearGradient id="accent-gradient" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4FD1C5" />
+      <stop offset="100%" stop-color="#38B2AC" />
+    </linearGradient>
+    <filter id="shadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+    <!-- Adding pulsing animation -->
+    <radialGradient id="pulse" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.3">
+        <animate attributeName="stop-opacity" values="0.3;0.1;0.3" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="100" fill="url(#bg-gradient)" />
+  
+  <!-- Add pulsing circle in background -->
+  <circle cx="256" cy="256" r="180" fill="url(#pulse)" />
+  
+  <!-- Subtle pattern overlay -->
+  <path d="M0 0 L512 512 M512 0 L0 512" stroke="#D55050" stroke-width="2" stroke-opacity="0.1" />
+  
+  <!-- Clipboard base shape -->
+  <rect x="136" y="96" width="240" height="320" rx="16" fill="#FFFFFF" opacity="0.95" />
+  <rect x="160" y="76" width="192" height="36" rx="18" fill="#FFFFFF" />
+  
+  <!-- Task items -->
+  <g>
+    <rect x="160" y="144" width="192" height="40" rx="8" fill="#F3F4F6" />
+    <rect x="160" y="204" width="192" height="40" rx="8" fill="#F3F4F6" />
+    <rect x="160" y="264" width="192" height="40" rx="8" fill="#F3F4F6" />
+    <rect x="160" y="324" width="192" height="40" rx="8" fill="#F3F4F6" />
+  </g>
+  
+  <!-- Task item checkmarks -->
+  <circle cx="180" cy="164" r="12" fill="url(#accent-gradient)" />
+  <circle cx="180" cy="224" r="12" fill="url(#accent-gradient)" />
+  <circle cx="180" cy="284" r="12" fill="#E5E7EB" />
+  <circle cx="180" cy="344" r="12" fill="#E5E7EB" />
+  
+  <!-- Checkmarks in completed tasks -->
+  <path d="M174 164 L180 170 L186 158" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M174 224 L180 230 L186 218" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Task descriptions (lines) -->
+  <line x1="200" y1="164" x2="332" y2="164" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" />
+  <line x1="200" y1="224" x2="308" y2="224" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" />
+  <line x1="200" y1="284" x2="320" y2="284" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" />
+  <line x1="200" y1="344" x2="290" y2="344" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Priority indicator -->
+  <rect x="368" y="96" width="24" height="320" rx="12" fill="url(#accent-gradient)" opacity="0.7" />
+  
+  <!-- Adding star decoration -->
+  <path d="M256 50 L266 70 L288 70 L270 85 L280 105 L256 90 L232 105 L242 85 L224 70 L246 70 Z" fill="#FFD700" />
+</svg>
