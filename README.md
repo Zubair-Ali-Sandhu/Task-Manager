@@ -50,9 +50,7 @@ An Android task management application designed to help users organize tasks, re
 - `VIBRATE`: For notification alerts
 - `WAKE_LOCK`: For ensuring reliable alarm delivery
 
-## License
 
-[MIT License](LICENSE)
 
 ## Contact
 
