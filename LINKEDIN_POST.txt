@@ -1,0 +1,62 @@
+🚀 Excited to share my latest project: Task Manager Android App! 📱
+
+I built a full-featured task management application from scratch using Java and Android Studio. Here's what it does:
+
+✅ Create and organize tasks with priorities (Low to Critical)
+⏰ Smart notifications that remind you about upcoming deadlines
+📅 Set due dates and times for every task
+💪 Daily motivational quotes to keep you productive
+🔔 Full-screen alarms for critical tasks - you won't miss them!
+🌙 Runs in the background and even restarts after phone reboot
+
+What I learned while building this:
+
+🔹 Android app development with Java
+🔹 SQLite database for storing tasks
+🔹 Background services and notifications
+🔹 Material Design UI/UX principles
+🔹 Fragment-based architecture
+🔹 API integration for real-time data
+🔹 File handling and permissions management
+
+The app uses a clean layered architecture with Repository pattern, making it maintainable and scalable. I organized the code into 9 different packages (activities, fragments, database, services, etc.) following Android best practices.
+
+This project really challenged me to understand how different Android components work together - from the UI layer to background services to database management.
+
+Building this app was an amazing learning experience! 💡
+
+#AndroidDevelopment #Java #MobileApp #Coding #ProjectShowcase #SoftwareDevelopment #LearningInPublic
+
+---
+
+Alternative shorter version:
+---
+
+📱 Just finished building a Task Manager app for Android!
+
+Created a complete task management solution using Java that includes:
+• Task creation with priority levels
+• Smart deadline notifications
+• Background service that runs 24/7
+• Daily motivational quotes
+• Full-screen alarms for critical tasks
+
+🛠️ Tech Stack Breakdown:
+✓ SQLite + ContentProvider → Secure data storage
+✓ Fragment + RecyclerView → Smooth UI with Material Design
+✓ Services + AlarmManager → 24/7 background notifications
+✓ BroadcastReceivers → Boot recovery & alarm triggers
+✓ REST API → Daily motivational content
+✓ Repository Pattern → Clean, maintainable architecture
+
+Organized into 9 packages (activities, fragments, database, services, etc.) following Android best practices.
+
+This project taught me how all Android components work together seamlessly! 💡
+
+Proud of how this turned out! 🚀
+
+#AndroidDevelopment #Java #MobileApp #Coding
+
+---
+
+Pick the version that fits your style! Feel free to customize it further.

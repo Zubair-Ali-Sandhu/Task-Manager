@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view_task"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="6dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/surface">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Priority Indicator Bar on Left -->
+        <View
+            android:id="@+id/view_priority_bar"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="12dp"
+            android:background="@color/priority_medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Priority Icon -->
+        <ImageView
+            android:id="@+id/image_view_priority_indicator"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_priority"
+            app:layout_constraintStart_toEndOf="@+id/view_priority_bar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/priority_medium"
+            tools:ignore="ContentDescription" />
+
+        <!-- Task Title -->
+        <TextView
+            android:id="@+id/text_view_task_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            app:layout_constraintEnd_toStartOf="@+id/checkbox_task_completed"
+            app:layout_constraintStart_toEndOf="@+id/image_view_priority_indicator"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Complete project presentation" />
+
+        <!-- Checkbox -->
+        <CheckBox
+            android:id="@+id/checkbox_task_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/accent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Task Description -->
+        <TextView
+            android:id="@+id/text_view_task_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:lineSpacingExtra="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view_priority_indicator"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_task_title"
+            tools:text="Prepare slides and rehearse presentation for the team meeting" />
+
+        <!-- Due Date -->
+        <TextView
+            android:id="@+id/text_view_task_due_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawablePadding="4dp"
+            android:textColor="@color/text_tertiary"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif"
+            app:layout_constraintStart_toStartOf="@+id/text_view_task_description"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_task_description"
+            tools:text="Due: Mar 30, 2023" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

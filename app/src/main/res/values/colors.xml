@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern Color Scheme - Professional & Sleek -->
+
+    <!-- Primary Brand Colors - Deep Blue Theme -->
+    <color name="primary">#1E3A8A</color> <!-- Deep Blue -->
+    <color name="primary_dark">#1E293B</color> <!-- Slate Dark -->
+    <color name="primary_variant">#3B82F6</color> <!-- Bright Blue -->
+    <color name="primary_light">#DBEAFE</color> <!-- Light Blue -->
+
+    <!-- Accent Colors -->
+    <color name="accent">#8B5CF6</color> <!-- Purple Accent -->
+    <color name="accent_light">#C4B5FD</color> <!-- Light Purple -->
+    <color name="secondary">#10B981</color> <!-- Emerald Green -->
+    <color name="secondary_variant">#059669</color> <!-- Dark Emerald -->
+    <color name="secondary_light">#D1FAE5</color> <!-- Light Emerald -->
+
+    <!-- Task Priority Colors - Modern & Vibrant -->
+    <color name="priority_high">#EF4444</color> <!-- Vivid Red -->
+    <color name="priority_medium">#F59E0B</color> <!-- Amber -->
+    <color name="priority_low">#10B981</color> <!-- Emerald -->
+
+    <!-- Task Card Colors -->
+    <color name="task_card_background">#FFFFFF</color>
+    <color name="task_completed_background">#F1F5F9</color> <!-- Slate 100 -->
+
+    <!-- Background Colors -->
+    <color name="background">#F8FAFC</color> <!-- Slate 50 -->
+    <color name="background_secondary">#F1F5F9</color> <!-- Slate 100 -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F8FAFC</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#0F172A</color> <!-- Slate 900 -->
+    <color name="text_secondary">#64748B</color> <!-- Slate 500 -->
+    <color name="text_tertiary">#94A3B8</color> <!-- Slate 400 -->
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#E2E8F0</color> <!-- Slate 200 -->
+    <color name="gray_medium">#CBD5E1</color> <!-- Slate 300 -->
+    <color name="gray_dark">#475569</color> <!-- Slate 600 -->
+
+    <!-- Gradient Colors for Welcome/Splash Screen -->
+    <color name="splash_gradient_start">#1E3A8A</color> <!-- Deep Blue -->
+    <color name="splash_gradient_center">#3B82F6</color> <!-- Bright Blue -->
+    <color name="splash_gradient_end">#8B5CF6</color> <!-- Purple -->
+
+    <color name="welcome_gradient_start">#1E3A8A</color>
+    <color name="welcome_gradient_end">#8B5CF6</color>
+
+    <!-- Card Backgrounds with Transparency -->
+    <color name="quote_background">#E6FFFFFF</color> <!-- 90% white -->
+    <color name="developer_info_background">#E61E3A8A</color> <!-- 90% primary -->
+    <color name="time_background">#E68B5CF6</color> <!-- 90% accent -->
+
+    <!-- Status Colors -->
+    <color name="success">#10B981</color> <!-- Emerald -->
+    <color name="warning">#F59E0B</color> <!-- Amber -->
+    <color name="error">#EF4444</color> <!-- Red -->
+    <color name="info">#3B82F6</color> <!-- Blue -->
+
+    <!-- Divider & Border Colors -->
+    <color name="divider">#E2E8F0</color> <!-- Slate 200 -->
+    <color name="border">#CBD5E1</color> <!-- Slate 300 -->
+</resources>

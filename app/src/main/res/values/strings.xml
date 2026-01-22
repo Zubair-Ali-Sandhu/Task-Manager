@@ -1,0 +1,31 @@
+<resources>
+    <!-- Add these new strings to your existing strings.xml file -->
+    <string name="update_task">Update Task</string>
+    <string name="error_task_not_found">Error: Task not found</string>
+    <string name="task_not_found">Task not found</string>
+    <string name="title_required">Title is required</string>
+    <string name="task_updated_success">Task updated successfully</string>
+    <string name="failed_update_task">Failed to update task</string>
+    
+    <string name="edit_task">Edit Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Description (Optional)</string>
+    <string name="due_date">Due Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="priority">Priority</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Additional strings for dialog_add_task.xml -->
+    <string name="add_new_task">Add New Task</string>
+    
+    <!-- Additional strings for menu_task_options.xml -->
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    
+    <string name="completed">Completed</string>
+    <string name="pending">Pending</string>
+</resources>
