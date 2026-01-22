@@ -72,10 +72,10 @@ app/src/main/java/me/zubair/taskmanager/
 ```
 
 ## Screenshots
-<img width="720" height="1000" alt="image" src="https://github.com/user-attachments/assets/d34147a5-9391-434f-99ef-1e940afc8e1a" />
-<img width="720" height="1000" alt="image" src="https://github.com/user-attachments/assets/c17545d9-0024-4cba-a01e-900d2dba0baf" />
-<img width="720" height="1000" alt="image" src="https://github.com/user-attachments/assets/2153d4cc-6f52-431a-b436-6e8a9f9990bf" />
-<img width="720" height="1000" alt="image" src="https://github.com/user-attachments/assets/a3841e2d-444e-478c-b482-0e5dfb3a7173" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/d34147a5-9391-434f-99ef-1e940afc8e1a" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/c17545d9-0024-4cba-a01e-900d2dba0baf" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/2153d4cc-6f52-431a-b436-6e8a9f9990bf" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/a3841e2d-444e-478c-b482-0e5dfb3a7173" />
 
 
 
