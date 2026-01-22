@@ -1,4 +1,10 @@
-# Task Manager
+# 📱 Task Manager - Android App
+
+A full-featured task management application built from scratch using Java and Android Studio. Stay organized, never miss deadlines, and boost your productivity!
+
+[![GitHub](https://img.shields.io/badge/GitHub-Zubair--Ali--Sandhu-blue?style=flat&logo=github)](https://github.com/Zubair-Ali-Sandhu/Task-Manager)
+[![Android](https://img.shields.io/badge/Platform-Android-green?style=flat&logo=android)](https://www.android.com/)
+[![Java](https://img.shields.io/badge/Language-Java-orange?style=flat&logo=java)](https://www.java.com/)
 
 An Android task management application designed to help users organize tasks, receive timely notifications, and stay productive.
 
@@ -50,6 +56,53 @@ An Android task management application designed to help users organize tasks, re
 - `VIBRATE`: For notification alerts
 - `WAKE_LOCK`: For ensuring reliable alarm delivery
 
+## 📂 Project Structure
+
+```
+app/src/main/java/me/zubair/taskmanager/
+├── activities/       # Main app screens (MainActivity, SplashActivity, AlarmActivity)
+├── fragments/        # UI fragments (Home, TaskList, TaskDetails, Settings, etc.)
+├── adapters/         # RecyclerView adapters for task lists
+├── database/         # SQLite database implementation (Contract, Helper, Repository)
+├── models/           # Data models (Task class)
+├── services/         # Background services (Notifications, AlarmReceiver)
+├── receivers/        # BroadcastReceivers (BootReceiver)
+├── preferences/      # SharedPreferences manager
+└── utils/            # Helper classes (FileHelper, QuoteApiClient)
+```
+
+## 📸 Screenshots
+
+*Coming soon - Screenshots of the app will be added here*
+
+## 🚀 What I Learned
+
+- Android app development with Java
+- SQLite database for persistent storage
+- Background services and notifications
+- Material Design UI/UX principles
+- Fragment-based architecture
+- API integration for real-time data
+- File handling and permissions management
+- Repository pattern for clean architecture
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Zubair-Ali-Sandhu/Task-Manager/issues).
+
+## 📝 License
+
+This project is open source and available for educational purposes.
+
+## 👨‍💻 Author
+
+**Zubair Ali Sandhu**
+
+- GitHub: [@Zubair-Ali-Sandhu](https://github.com/Zubair-Ali-Sandhu)
+
+---
+
+⭐ Star this repo if you found it helpful!
 
 
 ## Contact
