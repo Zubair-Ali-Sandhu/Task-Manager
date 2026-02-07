@@ -1,4 +1,10 @@
-# Task Manager
+#  Task Manager - Android App
+
+A full-featured task management application built from scratch using Java and Android Studio. Stay organized, never miss deadlines, and boost your productivity!
+
+[![GitHub](https://img.shields.io/badge/GitHub-Zubair--Ali--Sandhu-blue?style=flat&logo=github)](https://github.com/Zubair-Ali-Sandhu/Task-Manager)
+[![Android](https://img.shields.io/badge/Platform-Android-green?style=flat&logo=android)](https://www.android.com/)
+[![Java](https://img.shields.io/badge/Language-Java-orange?style=flat&logo=java)](https://www.java.com/)
 
 An Android task management application designed to help users organize tasks, receive timely notifications, and stay productive.
 
@@ -50,6 +56,51 @@ An Android task management application designed to help users organize tasks, re
 - `VIBRATE`: For notification alerts
 - `WAKE_LOCK`: For ensuring reliable alarm delivery
 
+## Project Structure
+
+```
+app/src/main/java/me/zubair/taskmanager/
+├── activities/       # Main app screens (MainActivity, SplashActivity, AlarmActivity)
+├── fragments/        # UI fragments (Home, TaskList, TaskDetails, Settings, etc.)
+├── adapters/         # RecyclerView adapters for task lists
+├── database/         # SQLite database implementation (Contract, Helper, Repository)
+├── models/           # Data models (Task class)
+├── services/         # Background services (Notifications, AlarmReceiver)
+├── receivers/        # BroadcastReceivers (BootReceiver)
+├── preferences/      # SharedPreferences manager
+└── utils/            # Helper classes (FileHelper, QuoteApiClient)
+```
+
+## Screenshots
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/d34147a5-9391-434f-99ef-1e940afc8e1a" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/c17545d9-0024-4cba-a01e-900d2dba0baf" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/2153d4cc-6f52-431a-b436-6e8a9f9990bf" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/a3841e2d-444e-478c-b482-0e5dfb3a7173" />
+
+
+
+
+
+
+
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Zubair-Ali-Sandhu/Task-Manager/issues).
+
+## License
+
+This project is open source and available for educational purposes.
+
+##  Author
+
+**Zubair Ali Sandhu**
+
+- GitHub: [@Zubair-Ali-Sandhu](https://github.com/Zubair-Ali-Sandhu)
+
+---
+
+⭐ Star this repo if you found it helpful!
 
 
 ## Contact
